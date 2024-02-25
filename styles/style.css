@@ -147,7 +147,7 @@
 }
 
 .card__heading {
-  font-weight: var(--heading-font-weight);
+  font-variation-settings: 'wght' var(--heading-font-weight);
   font-size: 18px;
 }
 
@@ -208,7 +208,7 @@
 }
 
 .card__paragraph {
-  font-weight: var(--paragraph-font-weight);
+  font-variation-settings: 'wght' var(--heading-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
