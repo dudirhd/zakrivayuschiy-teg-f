@@ -258,13 +258,13 @@
   }
 }
 
-.like-icon.is-liked .contour {
-  fill: var(--body-heart);
-  transition: 0.3s;
-}
-
 .like-icon.is-liked {
   .core {
+    fill: var(--body-heart);
+    transition: 0.3s;
+  }
+
+  .contour {
     fill: var(--body-heart);
     transition: 0.3s;
   }
@@ -281,11 +281,6 @@
   .sparks {
     animation: stars 0.3s 0.3s ease-in;
   }
-}
-
-.contour {
-  fill: var(--accent-color);
-  transition: 0.1s;
 }
 
 .core {
