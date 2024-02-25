@@ -8,21 +8,30 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url(./Inter-Variable.woff2) format('woff');
+    src:
+    local('Inter')
+    url(./Inter-Variable.woff2) format('woff2 supports variations'),
+        url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight: bold;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url(./Inter-Variable.woff2) format('woff');
+    src:
+    local('Inter')
+    url(./Inter-Variable.woff2) format('woff2 supports variations'),
+        url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight: regular;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url(./Inter-Variable.woff2) format('woff');
+    src:
+    local('Inter')
+    url(./Inter-Variable.woff2) format('woff2 supports variations'),
+        url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight: 785;
     font-display: swap;
 }
@@ -30,7 +39,10 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url(./Inter-Variable.woff2) format('woff');
+    src:
+    local('Inter')
+    url(./Inter-Variable.woff2) format('woff2 supports variations'),
+        url(./Inter-Variable.woff2) format('woff2-variations');
     font-weight: 465;
     font-display: swap;
 }

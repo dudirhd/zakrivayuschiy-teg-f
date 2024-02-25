@@ -13,6 +13,11 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 
 */
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: var(--font-inter), sans-serif;
+  }
+}
 
 .page {
   min-inline-size: 375px;
@@ -57,13 +62,13 @@
 
 .header__heading {
   font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   text-transform: uppercase;
   padding-top: 136px;
 }
 
 .header__text {
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   text-transform: uppercase;
   font-size: clamp(0.875rem, 0.677rem + 0.845vw, 1.438rem);
   padding-top: 25px;
@@ -78,7 +83,7 @@
 }
 
 .theme-menu__button {
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   font-size: 14px;
   background-color: transparent;
   border: none;
@@ -142,7 +147,6 @@
 }
 
 .card__heading {
-  font-family: var(--font-inter);
   font-weight: var(--heading-font-weight);
   font-size: 18px;
 }
@@ -186,7 +190,7 @@
 
 .card__image-label {
   position: absolute;
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   font-size: 14px;
   color: var(--accent-color);
   right: 25px;
@@ -204,7 +208,6 @@
 }
 
 .card__paragraph {
-  font-family: var(--font-inter);
   font-weight: var(--paragraph-font-weight);
   font-size: 18px;
   line-height: 21px;
@@ -255,6 +258,11 @@
   }
 }
 
+.like-icon.is-liked .contour {
+  fill: var(--body-heart);
+  transition: 0.3s;
+}
+
 .like-icon.is-liked {
   .core {
     fill: var(--body-heart);
@@ -264,11 +272,6 @@
   .main-body {
     fill: var(--body-heart);
     transition: 0.3s 0.05s;
-  }
-
-  .contour {
-    fill: var(--body-heart);
-    transition: 0.3s;
   }
 
   .heart {
@@ -305,7 +308,7 @@
 }
 
 .button {
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   font-size: 14px;
   min-width: 130px;
   min-height: 38px;
@@ -355,7 +358,7 @@
 .button__save {
   background-color: var(--main-color);
   border: 2px solid var(--accent-color);
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -397,7 +400,7 @@
 
 .dialog__paragraph {
   color: var(--accent-color);
-  font-family: var(--font-pressstart2p);
+  font-family: var(--font-pressstart2p), sans-serif;
   line-height: 150%;
   font-size: 14px;
   width: clamp(12.375rem, 3.38vw + 11.583rem, 14.625rem);
