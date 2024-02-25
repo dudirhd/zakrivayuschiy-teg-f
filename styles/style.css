@@ -15,8 +15,8 @@
 */
 
 .page {
-  min-inline-size: 375px; 
-  min-block-size: 100dvb; 
+  min-inline-size: 375px;
+  min-block-size: 100dvb;
   color: var(--accent-color);
   background-image: 
     repeating-linear-gradient(90deg, var(--dot-gradient-color), var(--dot-gradient-color) 2px, transparent 2px, transparent 4px),
@@ -309,7 +309,6 @@
   font-size: 14px;
   min-width: 130px;
   min-height: 38px;
-  background-color: transparent;
   border: 2px solid var(--accent-color);
   background-color: transparent;
   position: relative;
@@ -345,8 +344,8 @@
 .button:focus-visible {
   outline: none;
   border: 2px solid var(--accent-color);
-  box-shadow: 2px 2px var(--accent-color); 
-  transition: 0.5s;         
+  box-shadow: 2px 2px var(--accent-color);
+  transition: 0.5s;
 }
 
 .button__save-container {
@@ -377,8 +376,8 @@
 }
 
 #dialog {
-  width: clamp(21.313rem, 0.939vw + 21.092rem, 21.938rem); 
-  height: 191px; 
+  width: clamp(21.313rem, 0.939vw + 21.092rem, 21.938rem);
+  height: 191px;
   background-color: var(--main-color);
   border: 2px solid var(--accent-color);
 }

@@ -260,12 +260,17 @@
         onclick="window['dialog'].showModal()"
         aria-controls="dialog"
         class="button__save button">
-          <svg viewBox="0 0 21 21" class="button__image"><use href="#floppy"></svg><span class="button__text">Сохранить на память</span>
+          <svg viewBox="0 0 21 21" class="button__image">
+            <use href="#floppy">
+          </svg>
+          <span class="button__text">Сохранить на память</span>
         </button>
       </div>
       <dialog id="dialog">
           <div class="dialog__top">
-            <svg viewBox="0 0 21 21" class="button__image button__save-image"><use href="#floppy"></svg>
+            <svg viewBox="0 0 21 21" class="button__image button__save-image">
+              <use href="#floppy">
+            </svg>
             <p class="dialog__paragraph">Вставьте дискету, чтобы продолжить</p>
           </div>
           <button onclick="window['dialog'].close();" class="button__save button button__ok "><span class="button__text button__leave-text">ок</span></button>
@@ -276,7 +281,7 @@
 </html>
 
 <svg xmlns="http://www.w3.org/2000/svg"">
-  <symbol id="floppy" 
+  <symbol id="floppy"
     fill="currentColor"
   >
     <path
