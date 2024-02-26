@@ -23,6 +23,13 @@
   }
 }
 
+@supports ((text-stroke: 1px var(--main-color)) or (-webkit-text-stroke: 1px var(--main-color))) {
+  .card__image-label {
+    -webkit-text-stroke: 1px var(--main-color);
+    text-stroke: 1px var(--stroke-color);
+  }
+}
+
 .page {
   min-inline-size: 375px;
   min-block-size: 100dvb;
@@ -201,7 +208,6 @@
   right: 25px;
   top: 25px;
   mix-blend-mode: hard-light;
-  -webkit-text-stroke: 1px var(--main-color);
   text-transform: uppercase;
 }
 

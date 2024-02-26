@@ -6,8 +6,8 @@
 */
 
 :root.theme-light {
-    --heading-font-weight: bold;
-    --paragraph-font-weight: regular;
+    --heading-font-weight: 700;
+    --paragraph-font-weight: 400;
     --font-inter: 'Inter';
     --font-pressstart2p: 'PressStart2P';
     --main-color: #FFFFFF;
@@ -22,8 +22,8 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --heading-font-weight: bold;
-        --paragraph-font-weight: regular;
+        --heading-font-weight: 700;
+        --paragraph-font-weight: 400;
         --font-inter: 'Inter';
         --font-pressstart2p: 'PressStart2P';
         --main-color: #FFFFFF;
