@@ -15,11 +15,11 @@
 */
 @supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: 'wght' var(--paragraph-font-weight);
+    font-variation-settings: "wght" var(--paragraph-font-weight);
   }
 
   .card__heading {
-    font-variation-settings: 'wght' var(--heading-font-weight);
+    font-variation-settings: "wght" var(--heading-font-weight);
   }
 }
 
@@ -34,7 +34,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-variation-settings: 'wght' var(--paragraph-font-weight);
+  font-variation-settings: "wght" var(--paragraph-font-weight);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -152,7 +152,7 @@
 }
 
 .card__heading {
-  font-variation-settings: 'wght' var(--heading-font-weight);
+  font-variation-settings: "wght" var(--heading-font-weight);
   font-size: 18px;
 }
 
@@ -213,7 +213,7 @@
 }
 
 .card__paragraph {
-  font-variation-settings: 'wght' var(--heading-font-weight);
+  font-variation-settings: "wght" var(--heading-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
