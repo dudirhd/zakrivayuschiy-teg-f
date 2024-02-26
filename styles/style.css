@@ -34,6 +34,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-variation-settings: 'wght' var(--paragraph-font-weight);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
