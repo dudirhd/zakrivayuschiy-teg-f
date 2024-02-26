@@ -14,8 +14,12 @@
 
 */
 @supports (font-variation-settings: normal) {
-  body {
-    font-family: var(--font-inter), sans-serif;
+  .page {
+    font-variation-settings: 'wght' var(--paragraph-font-weight);
+  }
+
+  .card__heading {
+    font-variation-settings: 'wght' var(--heading-font-weight);
   }
 }
 

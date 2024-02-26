@@ -266,7 +266,8 @@
           <span class="button__text">Сохранить на память</span>
         </button>
       </div>
-      <dialog id="dialog" method="dialog">
+      <dialog id="dialog" >
+        <form method="dialog">
           <div class="dialog__top">
             <svg viewBox="0 0 21 21" class="button__image button__save-image">
               <use href="#floppy"></use>
@@ -274,6 +275,8 @@
             <p class="dialog__paragraph">Вставьте дискету, чтобы продолжить</p>
           </div>
           <button onclick="window['dialog'].close();" class="button__save button button__ok "><span class="button__text button__leave-text">ок</span></button>
+        </form>
+          
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>
