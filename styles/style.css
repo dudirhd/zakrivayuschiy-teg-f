@@ -219,7 +219,6 @@
 }
 
 .card__paragraph {
-  font-variation-settings: "wght" var(--heading-font-weight);
   font-size: 18px;
   line-height: 21px;
 }
