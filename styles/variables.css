@@ -1,8 +1,8 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-    --heading-font-weight: "wght" bold;
-    --paragraph-font-weight: "wght" regular;
+    --heading-font-weight: "wght" 700;
+    --paragraph-font-weight: "wght" 400;
     --font-inter: 'Inter';
     --font-pressstart2p: 'PressStart2P';
     --main-color: #FFFFFF;
