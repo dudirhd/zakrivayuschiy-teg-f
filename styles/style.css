@@ -36,10 +36,7 @@
   min-inline-size: 375px;
   min-block-size: 100dvb;
   color: var(--accent-color);
-  background-image: 
-    repeating-linear-gradient(90deg, var(--dot-gradient-color), var(--dot-gradient-color) 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(180deg, var(--dot-gradient-color), var(--dot-gradient-color) 2px, transparent 2px, transparent 4px),
-    linear-gradient(var(--top-gradient-color), var(--botom-gradient-color));
+  background-image:  var(--background);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

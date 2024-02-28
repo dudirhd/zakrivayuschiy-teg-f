@@ -13,4 +13,7 @@
     --counter-heart: #000000;
     --body-heart: #FF0000;
     --button-text: #FFFFFF;
+    --background:     repeating-linear-gradient(90deg, #D3D3D3, #D3D3D3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(180deg, #D3D3D3, #D3D3D3 2px, transparent 2px, transparent 4px),
+    linear-gradient(#E7E7E7, #1A1A1A);
 }
