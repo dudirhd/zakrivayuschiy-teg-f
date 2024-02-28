@@ -6,8 +6,8 @@
 */
 
 :root.theme-light {
-    --heading-font-weight: "wght" 700;
-    --paragraph-font-weight: "wght" 400;
+    --title-weight: 700;
+    --main-weight: 400;
     --font-inter: 'Inter';
     --font-pressstart2p: 'PressStart2P';
     --main-color: #FFFFFF;
@@ -22,8 +22,8 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --heading-font-weight: "wght" 700;
-        --paragraph-font-weight: "wght" 400;
+        --title-weight: 700;
+        --main-weight: 400;
         --font-inter: 'Inter';
         --font-pressstart2p: 'PressStart2P';
         --main-color: #FFFFFF;
@@ -38,8 +38,8 @@
 }
 
 :root.theme-dark {
-    --heading-font-weight: "wght" 785;
-    --paragraph-font-weight: "wght" 465;
+    --title-weight: 785;
+    --main-weight: 465;
     --font-inter: 'Inter';
     --font-pressstart2p: 'PressStart2P';
     --main-color: #000000;
@@ -54,8 +54,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --heading-font-weight: "wght" 785;
-        --paragraph-font-weight: "wght" 465;
+        --title-weight: 785;
+        --main-weight: 465;
         --font-inter: 'Inter';
         --font-pressstart2p: 'PressStart2P';
         --main-color: #000000;

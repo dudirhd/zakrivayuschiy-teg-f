@@ -15,11 +15,11 @@
 */
 @supports (font-variation-settings: normal) {
   .page {
-    font-variation-settings: var(--paragraph-font-weight);
+    font-variation-settings: "wght" var(--main-weight);
   }
 
   .card__heading {
-    font-variation-settings: var(--heading-font-weight);
+    font-variation-settings: "wght" var(--title-weight);
   }
 }
 
@@ -31,19 +31,8 @@
   }
 }
 
-@supports (font-variation-settings: normal) {
-  .page {
-    font-variation-settings: var(--paragraph-font-weight);
-  }
-
-  .card__heading {
-    font-variation-settings: var(--heading-font-weight);
-  }
-}
-
-
 .page {
-  font-variation-settings: var(--paragraph-font-weight);
+  font-variation-settings: "wght" var(--main-weight);
   min-inline-size: 375px;
   min-block-size: 100dvb;
   color: var(--accent-color);
@@ -171,7 +160,7 @@
 }
 
 .card__heading {
-  font-variation-settings: var(--heading-font-weight);
+  font-variation-settings: "wght" var(--title-weight);
   font-size: 18px;
 }
 
