@@ -31,7 +31,19 @@
   }
 }
 
+@supports (font-variation-settings: normal) {
+  .page {
+    font-variation-settings: var(--paragraph-font-weight);
+  }
+
+  .card__heading {
+    font-variation-settings: var(--heading-font-weight);
+  }
+}
+
+
 .page {
+  font-variation-settings: var(--paragraph-font-weight);
   min-inline-size: 375px;
   min-block-size: 100dvb;
   color: var(--accent-color);
@@ -42,7 +54,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-variation-settings: var(--paragraph-font-weight);
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
