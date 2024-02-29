@@ -3,8 +3,8 @@
 :root {
     --title-weight: 700;
     --main-weight: 400;
-    --font-inter: 'Inter';
-    --font-pressstart2p: 'PressStart2P';
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
     --main-color: #FFFFFF;
     --accent-color: #000000;
     --dot-gradient-color: #D3D3D3;

@@ -8,8 +8,8 @@
 :root.theme-light {
     --title-weight: 700;
     --main-weight: 400;
-    --font-inter: 'Inter';
-    --font-pressstart2p: 'PressStart2P';
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
     --main-color: #FFFFFF;
     --accent-color: #000000;
     --counter-heart: #000000;
@@ -24,8 +24,8 @@
     :root {
         --title-weight: 700;
         --main-weight: 400;
-        --font-inter: 'Inter';
-        --font-pressstart2p: 'PressStart2P';
+        --main-font: 'Inter';
+        --accent-font: 'PressStart2P';
         --main-color: #FFFFFF;
         --accent-color: #000000;
         --counter-heart: #000000;
@@ -40,18 +40,15 @@
 :root.theme-dark {
     --title-weight: 785;
     --main-weight: 465;
-    --font-inter: 'Inter';
-    --font-pressstart2p: 'PressStart2P';
+    --main-font: 'Inter';
+    --accent-font: 'PressStart2P';
     --main-color: #000000;
     --accent-color: #00CC14;
-    --dot-gradient-color: #007F0C;
-    --top-gradient-color: #007F0C;
-    --botom-gradient-color: #004306;
     --counter-heart: #00CC14;
     --body-heart: #FF0000;
     --button-text: #00CC14;
-    --background:     repeating-linear-gradient(90deg, #007F0C, #007F0C 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(180deg, #007F0C, #007F0C 2px, transparent 2px, transparent 4px),
+    --background:     repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(180deg, #000, #000 2px, transparent 2px, transparent 4px),
     linear-gradient(#007F0C, #004306);
 }
 
@@ -59,15 +56,15 @@
     :root {
         --title-weight: 785;
         --main-weight: 465;
-        --font-inter: 'Inter';
-        --font-pressstart2p: 'PressStart2P';
+        --main-font: 'Inter';
+        --accent-font: 'PressStart2P';
         --main-color: #000000;
         --accent-color: #00CC14;
         --counter-heart: #00CC14;
         --body-heart: #FF0000;
         --button-text: #00CC14;
-        --background:     repeating-linear-gradient(90deg, #007F0C, #007F0C 2px, transparent 2px, transparent 4px),
-        repeating-linear-gradient(180deg, #007F0C, #007F0C 2px, transparent 2px, transparent 4px),
+        --background:     repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 4px),
+        repeating-linear-gradient(180deg, #000, #000 2px, transparent 2px, transparent 4px),
         linear-gradient(#007F0C, #004306);
     }
 }
